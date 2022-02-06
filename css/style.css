@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --light: #F7FDFC;
+    --dark: #24413c;
+    --white : #fff; 
+    --primary:#5bb6aa ; 
+  }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: var(--primary) !important;
+    font-size: 70px;
+    text-align: center;
+}
+
+
+/* -- start header --*/
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-light{
+    background-color: var(--white) !important;
+    position: fixed;
+    width: 100%;
+    color: var(--dark) !important;
+}
+
+.navbar-nav{
+    margin-left: 60%;
+    text-align: center;
+}
+
+.ox-light-bg{
+    background-color: var(--light) !important;
+}
+
+/* -- start about-- */ 
+#about p{
+    font-size: 15px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.about {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.about .op-8 {
+    opacity: 0.8;
+}
+  
+.about .bg-megna {
+    background-color: var(--primary);
+}
+  
+.about .bg-primary {
+    background-color: var(--dark) !important;
+}
+
+.about .wrap-about-box {
+    padding: 100px 20px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+/* start services */ 
+
+.service-7 {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+}
+
+.service-7 h1, .service-7 h2, .service-7 h3, .service-7 h4, .service-7 h5, .service-7 h6 {
+    color: #3e4555;
+}
+
+.service-7 .font-weight-medium {
+    font-weight: 500;
+}
+
+.service-7 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+.service-7 p{
+    text-align: center;
+}
+
+
+/* feature */
+#features{
+    text-align: justify;
+} 
+
+/*--start app ---*/ 
+#app img { 
+    height: 60% !important;
+    width: 60% !important ;
+    margin-left: 20%;
+}
+
+
+/* footer */ 
+footer{
+    height: 50px; 
+    background-color: var(--dark);
+    padding-top: 10px;
+    color: var(--light);
+}
+
+
+
+/* -- Responsive Design -- */ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 50px;     
+    }
+    .navbar-nav{
+        margin-left: 0;
+    }
+    .bg-light{
+        position: relative;
+    }
+}
